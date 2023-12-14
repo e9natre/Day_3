@@ -35,7 +35,8 @@ def solver(numbers):
             return num
     return None
 
-result = solver(list3)
-print(f"The largest prime factor is:{result}")
+if __name__ == "__main__":
+    result = solver(list3)
+    print(f"The largest prime factor is:{result}")
 
 
