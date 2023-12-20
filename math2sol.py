@@ -1,7 +1,6 @@
 import math
 num = int(input())
 sqrt_num = int(math.sqrt(num))
-print(sqrt_num)
 
 list = []
 for x in range(1, sqrt_num+1):
